@@ -32,6 +32,11 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+
 		<!-- JPA -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -71,13 +76,6 @@
 			<optional>true</optional>
 		</dependency>
 
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<!-- Optional: set scope to runtime if used as an embedded database during execution,
-                 or omit for general use in testing/development environments. -->
-			<scope>runtime</scope>
-		</dependency>
 
 		<!-- Lombok -->
 		<dependency>
@@ -95,6 +93,12 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.learn.stripepay</groupId>
+			<artifactId>common-event</artifactId>
+			<version>1.0.0</version>
+			<scope>compile</scope>
 		</dependency>
 
 

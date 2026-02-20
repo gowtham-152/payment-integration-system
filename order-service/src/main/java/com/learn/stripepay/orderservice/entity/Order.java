@@ -15,6 +15,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Getter
+@Setter
 public class Order {
 
     @Id
@@ -28,4 +30,7 @@ public class Order {
     private String status;
 
     private String paymentId;
+
+
+
 }
